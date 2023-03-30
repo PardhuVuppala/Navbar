@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    
+  }
+  .grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    height: auto;
+    
+    margin: 25px;
+  }
+  li,p,h1{
+    font-size: small;
+  }
+  ul,p{
+    border: 1px red solid;
+   
+  }
+  ul{
+    margin-bottom:0px ;
+  }
+  p{
+    margin-top: 2.5px;
+  }
+  .App50{
+    border: 1px red solid;
+    margin: 2px;
+  }

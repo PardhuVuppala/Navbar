@@ -1,0 +1,31 @@
+.App9{
+ padding: 25px;
+ text-decoration: none;
+ color: black;
+ 
+ 
+}
+.App11{
+   background-color: aliceblue;
+   height: 50px;
+   padding-top:10px ;
+}
+.App9:hover {
+    text-decoration: none;
+  }
+nav{
+    text-align: center;
+}
+.ring{
+    width: 200px;
+    height:200px;
+    border: 0px solid #000;
+    border-radius: 5px;
+    position: absolute;
+
+}
+.ring:nth-child(1){
+    border-bottom-width:8px;
+    border-color: rgb(255,255,255);
+    animation:rotate 2s linear infinite ;
+}
