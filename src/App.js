@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nakhul from './Nakhul';
+import Contact from './Contact';
 import Home from './Home';
-import Loading from './Loading';
-import Box from './boxes';
-import CC from './Class';
+import Login from './Login';
+import Reg from './Registration';
+import About from './Aboutus'
 
 function App() {
   return (
@@ -12,10 +12,10 @@ function App() {
      <BrowserRouter>
      <Routes>
      <Route path='/' element={<Home/>}/>
-     <Route path='/Nakhul' element={<Nakhul/>}/>
-     <Route path='/Loading' element={<Loading/>}/>
-     <Route path='/box' element={<Box/>}/>
-     <Route path='/class' element={<CC/>}/>
+     <Route path='/Contact' element={<Contact/>}/>
+     <Route path='/Login' element={<Login/>}/>
+     <Route path='/Reg' element={<Reg/>}/>
+     <Route path='/About' element={<About/>}/>
      </Routes>
      </BrowserRouter>
     </div>
